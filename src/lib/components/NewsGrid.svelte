@@ -1,19 +1,19 @@
 <script>
   const articles = [
     {
-      title: "Wealth Management for a New Generation: Wealthfront Goes...",
-      author: "Mike Volpi",
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=600&auto=format&fit=crop"
+      title: "The Rise of Next-Gen Fund Managers: What Sets Them Apart",
+      author: "Thomas Meier",
+      image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?q=80&w=600&auto=format&fit=crop"
     },
     {
-      title: "Security's Agentic Era Starts Here: Our Investment in 7AI",
-      author: "Shardul Shah",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop"
+      title: "Why Operator Experience Creates Better Investors",
+      author: "Tobias Gunzenhauser",
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop"
     },
     {
-      title: "Getting to know the Bornstein brothers",
-      author: "Nina Achadjian",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600&auto=format&fit=crop"
+      title: "Pattern Recognition: Identifying Breakout Managers Early",
+      author: "Henrik Reimavuo",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop"
     }
   ];
 </script>

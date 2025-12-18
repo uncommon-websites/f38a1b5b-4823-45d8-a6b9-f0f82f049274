@@ -9,9 +9,22 @@
   import PinkSection from '$lib/components/PinkSection.svelte';
   import BlackSection from '$lib/components/BlackSection.svelte';
   import Footer from '$lib/components/Footer.svelte';
+
+  export let data;
 </script>
 
-<div class="bg-white min-h-screen font-body selection:bg-[#E33E38] selection:text-white">
+<svelte:head>
+  <title>{data.title}</title>
+  <meta name="description" content={data.description} />
+  <meta property="og:title" content={data.title} />
+  <meta property="og:description" content={data.description} />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={data.title} />
+  <meta name="twitter:description" content={data.description} />
+</svelte:head>
+
+<div class="bg-white min-h-screen font-body selection:bg-primary-500 selection:text-white">
   <Header />
   
   <main>
