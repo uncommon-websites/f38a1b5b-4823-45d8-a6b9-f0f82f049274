@@ -15,18 +15,14 @@
 <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 {isScrolled ? 'bg-white/90 backdrop-blur-sm py-4 shadow-sm' : 'bg-transparent py-8'}">
   <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
     <!-- Logo -->
-    <a href="/" class="text-[#E33E38] hover:opacity-80 transition-opacity">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="4" y="6" width="20" height="3" fill="currentColor"/>
-        <rect x="4" y="13" width="14" height="3" fill="currentColor"/>
-        <rect x="4" y="20" width="20" height="3" fill="currentColor"/>
-      </svg>
+    <a href="/" class="text-black hover:opacity-80 transition-opacity">
+      <span class="font-display text-xl md:text-2xl">Voyance Capital</span>
     </a>
 
     <!-- Navigation -->
     <nav class="hidden md:flex items-center space-x-8">
-      {#each ['Team', 'Philosophy', 'Companies', 'Perspectives', 'Resources'] as item}
-        <a href="#{item.toLowerCase()}" class="text-gray-600 hover:text-black text-sm font-medium transition-colors">
+      {#each ['Team', 'Philosophy', 'Fund Managers', 'Insights', 'Resources'] as item}
+        <a href="#{item.toLowerCase().replace(' ', '-')}" class="text-gray-600 hover:text-black text-sm font-medium transition-colors">
           {item}
         </a>
       {/each}

@@ -1,28 +1,28 @@
 <script>
   const heroes = [
     {
-      name: "AARON KATZ",
-      company: "ClickHouse",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop", 
-      alt: "Aaron Katz portrait"
+      name: "SARAH CHEN",
+      company: "Velocity Ventures",
+      image: "/generated/image-confident-female-venture-capital-fund-ma-1767357571931-0.webp", 
+      alt: "Next-gen fund manager portrait"
     },
     {
-      name: "VLAD TENEV",
-      company: "Robinhood",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop",
-      alt: "Vlad Tenev portrait"
+      name: "MARCUS WEBER",
+      company: "Alpine Capital",
+      image: "/generated/image-professional-male-venture-capital-fund-m-1767357575035-1.webp",
+      alt: "Next-gen fund manager portrait"
     },
     {
-      name: "DYLAN FIELD",
-      company: "Figma",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-      alt: "Dylan Field portrait"
+      name: "ELENA ROSSI",
+      company: "Frontier Fund",
+      image: "/generated/image-young-female-venture-capital-fund-manage-1767357577609-2.webp",
+      alt: "Next-gen fund manager portrait"
     },
     {
-      name: "ALEX WANG",
-      company: "Scale AI",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop",
-      alt: "Alex Wang portrait"
+      name: "DAVID LAURENT",
+      company: "Emerge Ventures",
+      image: "/generated/image-male-venture-capital-fund-manager-in-his-1767357580154-3.webp",
+      alt: "Next-gen fund manager portrait"
     }
   ];
 </script>
@@ -30,8 +30,8 @@
 <section class="pt-32 pb-16 md:pt-48 md:pb-24 overflow-hidden">
   <div class="container mx-auto px-6 md:px-12 mb-16">
     <h1 class="font-display text-5xl md:text-7xl leading-[1.1] text-gray-900 max-w-4xl">
-      We invest in <span class="italic font-normal">who you are</span>,<br />
-      not just what you do.
+      We back <span class="italic font-normal">next-generation</span><br />
+      fund managers with conviction.
     </h1>
   </div>
 
@@ -53,7 +53,7 @@
                 </svg>
               </button>
               <div class="absolute bottom-0 left-0 w-full h-1 bg-gray-200">
-                <div class="h-full bg-[#E33E38] w-1/3"></div>
+                <div class="h-full bg-primary-500 w-1/3"></div>
               </div>
             {/if}
           </div>

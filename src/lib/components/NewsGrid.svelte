@@ -1,19 +1,19 @@
 <script>
   const articles = [
     {
-      title: "Wealth Management for a New Generation: Wealthfront Goes...",
-      author: "Mike Volpi",
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=600&auto=format&fit=crop"
+      title: "Why Next-Gen Fund Managers Are Outperforming Traditional VCs",
+      author: "Thomas Meier",
+      image: "/generated/image-business-professional-working-at-desk-re-1767357585410-5.webp"
     },
     {
-      title: "Security's Agentic Era Starts Here: Our Investment in 7AI",
-      author: "Shardul Shah",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop"
+      title: "The New Breed of European Venture: Specialized, Agile, Thesis-Driven",
+      author: "Tobias Gunzenhauser",
+      image: "/generated/image-modern-european-startup-office-with-team-1767357587914-6.webp"
     },
     {
-      title: "Getting to know the Bornstein brothers",
-      author: "Nina Achadjian",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600&auto=format&fit=crop"
+      title: "Building a Better LP for a New Generation of Managers",
+      author: "Henrik Reimavuo",
+      image: "/generated/image-professional-handshake-between-business--1767357590486-7.webp"
     }
   ];
 </script>
