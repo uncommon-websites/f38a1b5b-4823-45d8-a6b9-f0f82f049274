@@ -15,28 +15,21 @@
 <header class="fixed top-0 left-0 w-full z-50 transition-all duration-300 {isScrolled ? 'bg-white/90 backdrop-blur-sm py-4 shadow-sm' : 'bg-transparent py-8'}">
   <div class="container mx-auto px-6 md:px-12 flex justify-between items-center">
     <!-- Logo -->
-    <a href="/" class="text-[#E33E38] hover:opacity-80 transition-opacity">
-      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="4" y="6" width="20" height="3" fill="currentColor"/>
-        <rect x="4" y="13" width="14" height="3" fill="currentColor"/>
-        <rect x="4" y="20" width="20" height="3" fill="currentColor"/>
-      </svg>
+    <a href="/" class="text-gray-900 hover:text-primary-600 transition-colors">
+      <span class="font-display text-2xl tracking-tight">Firm & Co.</span>
     </a>
 
     <!-- Navigation -->
     <nav class="hidden md:flex items-center space-x-8">
-      {#each ['Team', 'Philosophy', 'Companies', 'Perspectives', 'Resources'] as item}
+      {#each ['Strategy', 'Managers', 'Philosophy', 'Insights', 'Contact'] as item}
         <a href="#{item.toLowerCase()}" class="text-gray-600 hover:text-black text-sm font-medium transition-colors">
           {item}
         </a>
       {/each}
       
-      <button class="text-gray-600 hover:text-black transition-colors ml-4" aria-label="Search">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="11" cy="11" r="8"></circle>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-        </svg>
-      </button>
+      <a href="#lp-portal" class="text-gray-600 hover:text-black transition-colors ml-4 text-sm font-medium">
+        LP Portal
+      </a>
     </nav>
   </div>
 </header>

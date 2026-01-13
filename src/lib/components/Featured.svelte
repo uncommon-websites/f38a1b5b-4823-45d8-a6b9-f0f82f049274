@@ -1,8 +1,8 @@
 <script>
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
-      caption: "Wealthfront's NASDAQ debut"
+      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1000&auto=format&fit=crop",
+      caption: "Portfolio construction methodology"
     }
   ];
 </script>
@@ -13,16 +13,16 @@
       <!-- Text Content -->
       <div class="md:col-span-5 mb-8 md:mb-0">
         <h2 class="font-display text-4xl md:text-6xl text-gray-900 mb-8 leading-tight">
-          Ideas don't build businesses.<br />
-          People do.
+          Disciplined selection.<br />
+          Curated exposure.
         </h2>
         
         <div class="max-w-md">
           <p class="text-lg text-gray-600 font-light mb-6">
-            Wealth Management for a New Generation: Wealthfront Goes Public
+            Our fund of funds strategy combines rigorous manager selection with thoughtful portfolio construction to deliver institutional-quality venture exposure.
           </p>
-          <a href="/article" class="text-sm text-gray-500 underline decoration-1 underline-offset-4 hover:text-black transition-colors">
-            Read more
+          <a href="/strategy" class="text-sm text-gray-500 underline decoration-1 underline-offset-4 hover:text-black transition-colors">
+            Learn more
           </a>
         </div>
       </div>
@@ -30,15 +30,14 @@
       <!-- Image Slider -->
       <div class="md:col-span-7">
         <div class="relative">
-          <div class="aspect-[4/3] bg-blue-900 overflow-hidden">
-             <!-- Using a specific image that looks like a corporate event/IPO -->
+          <div class="aspect-[4/3] bg-gray-900 overflow-hidden">
              <img 
-               src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=1200&auto=format&fit=crop" 
-               alt="Wealthfront NASDAQ debut"
+               src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop" 
+               alt="Portfolio strategy visualization"
                class="w-full h-full object-cover"
              />
              <div class="absolute bottom-4 right-4 text-xs text-white/80 font-light">
-               Wealthfront's NASDAQ debut
+               Portfolio construction methodology
              </div>
           </div>
           
@@ -49,8 +48,6 @@
             <button class="w-1.5 h-1.5 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors" aria-label="Slide 3"></button>
             <button class="w-1.5 h-1.5 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors" aria-label="Slide 4"></button>
             <button class="w-1.5 h-1.5 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors" aria-label="Slide 5"></button>
-            <button class="w-1.5 h-1.5 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors" aria-label="Slide 6"></button>
-            <button class="w-1.5 h-1.5 rounded-full bg-gray-300 hover:bg-gray-400 transition-colors" aria-label="Slide 7"></button>
           </div>
         </div>
       </div>

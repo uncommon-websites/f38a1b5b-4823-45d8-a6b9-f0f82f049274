@@ -1,19 +1,19 @@
 <script>
   const articles = [
     {
-      title: "Wealth Management for a New Generation: Wealthfront Goes...",
-      author: "Mike Volpi",
-      image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=600&auto=format&fit=crop"
+      title: "The Rise of Emerging Manager Programs in Institutional Portfolios",
+      author: "Firm & Co.",
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=600&auto=format&fit=crop"
     },
     {
-      title: "Security's Agentic Era Starts Here: Our Investment in 7AI",
-      author: "Shardul Shah",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop"
+      title: "Why Design Matters in Alternative Investment Management",
+      author: "Firm & Co.",
+      image: "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=600&auto=format&fit=crop"
     },
     {
-      title: "Getting to know the Bornstein brothers",
-      author: "Nina Achadjian",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=600&auto=format&fit=crop"
+      title: "Building a Multi-Strategy Platform: Our Long-Term Vision",
+      author: "Firm & Co.",
+      image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=600&auto=format&fit=crop"
     }
   ];
 </script>
